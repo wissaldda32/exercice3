@@ -30,7 +30,10 @@ public class RomainTest {
     public void testConvert11() {
         assertEquals("XI", Romain.convert(11));
     }
-
+@Test
+public void testConvert12() {
+        assertEquals("XII", Romain.convert(12));
+}
 
 /*
         @Test
