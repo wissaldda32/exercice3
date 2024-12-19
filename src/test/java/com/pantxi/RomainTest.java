@@ -38,13 +38,13 @@ public void testConvert12() {
     public void testConvert20() {
         assertEquals("XX", Romain.convert(20));
 }
-/*
+
         @Test
         public void testConvert50() {
             assertEquals("L", Romain.convert(50));
         }
 
- */
+
 }
 
 
