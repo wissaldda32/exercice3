@@ -10,6 +10,9 @@ public class Romain {
         } else if (n == 3) {
             return "III";
         }
+        else if (n == 4) {
+            return "IV";
+        }
         return null;
     }
 }
