@@ -13,6 +13,11 @@ public class Romain {
         else if (n == 4) {
             return "IV";
         }
+        else if (n == 10) {
+            return "X";
+        }
+
+
         return null;
     }
 }
