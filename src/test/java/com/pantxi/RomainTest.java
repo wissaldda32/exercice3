@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 public class RomainTest {
 
-
     @Test
     public void testConvert1() {
         assertEquals("I", Romain.convert(1));
@@ -30,21 +29,23 @@ public class RomainTest {
     public void testConvert11() {
         assertEquals("XI", Romain.convert(11));
     }
-@Test
-public void testConvert12() {
+
+    @Test
+    public void testConvert12() {
         assertEquals("XII", Romain.convert(12));
-}
-@Test
+    }
+
+    @Test
     public void testConvert20() {
         assertEquals("XX", Romain.convert(20));
+    }
+
+    @Test
+    public void testConvert50() {
+        assertEquals("L", Romain.convert(50));
+    }
+
 }
 
-        @Test
-        public void testConvert50() {
-            assertEquals("L", Romain.convert(50));
-        }
-
-
-}
 
 

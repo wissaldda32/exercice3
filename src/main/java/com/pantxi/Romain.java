@@ -5,7 +5,7 @@ public class Romain {
 
 
     public static String convert(int n) {
-        if (n == 1) {
+      /*  if (n == 1) {
             return "I";
         } else if (n == 3) {
             return "III";
@@ -41,9 +41,9 @@ public class Romain {
     }
 
     }
+*/
 
-
-        /*if (n < 1 || n > 50) {
+        if (n < 1 || n > 50) {
             throw new IllegalArgumentException("Le nombre doit être entre 1 et 50");
         }
 
@@ -59,6 +59,7 @@ public class Romain {
 
         return tabDizaines[dizaine] + tabUnites[unite];
     }
+}
 
-*/
+
 
