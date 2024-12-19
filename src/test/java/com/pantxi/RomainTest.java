@@ -34,7 +34,10 @@ public class RomainTest {
 public void testConvert12() {
         assertEquals("XII", Romain.convert(12));
 }
-
+@Test
+    public void testConvert20() {
+        assertEquals("XX", Romain.convert(20));
+}
 /*
         @Test
         public void testConvert50() {
