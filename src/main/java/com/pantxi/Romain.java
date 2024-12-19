@@ -1,11 +1,10 @@
-
 package com.pantxi;
 
 public class Romain {
 
-
+    // Méthode principale de conversion des nombres entre 1 et 50
     public static String convert(int n) {
-      /*  if (n == 1) {
+        if (n == 1) {
             return "I";
         } else if (n == 3) {
             return "III";
@@ -15,33 +14,44 @@ public class Romain {
             return "X";
         } else if (n == 11) {
             return "XI";
+        } else if (n == 20) {
+            return "XX";
+        } else if (n == 30) {
+            return "XXX";
+        } else if (n == 40) {
+            return "XL";
+        } else if (n == 50) {
+            return "L";
         }
-         else if(n==20){
-             return "XX";
-        }
+        return "Nombre non valide";
+    }
 
-        return null;
+
+    public static String convert_nbrex(int nbre) {
+        // On calcule les dizaines
+        switch (nbre / 10) {
+            case 1:
+                return "X";
+            case 2:
+                return "XX";
+            case 3:
+                return "XXX";
+            case 4:
+                return "XL";
+            case 5:
+                return "L";
+            default:
+                return "Le nombre n'est pas valide"; // Si le nombre est en dehors de 10-50
+        }
     }
 }
+
+public string
+
+
+
+
 /*
-    switch(n/10){
-       case 1: return "x";
-        case 2: return "XX";
-        case 3:return "XXX";
-        case 4:return "XL";
-        case 5:return "L";
-
-
-  /*
-
-    }
-
-    {
-        return
-    }
-
-    }
-*/
 
         if (n < 1 || n > 50) {
             throw new IllegalArgumentException("Le nombre doit être entre 1 et 50");
@@ -62,4 +72,4 @@ public class Romain {
 }
 
 
-
+*/

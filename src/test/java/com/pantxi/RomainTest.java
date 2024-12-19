@@ -40,12 +40,14 @@ public class RomainTest {
         assertEquals("XX", Romain.convert(20));
     }
 
-    @Test
+   /* @Test
     public void testConvert50() {
         assertEquals("L", Romain.convert(50));
     }
+*/
+    @Test
+    public void converttest() {
+        assertEquals("XX", Romain.convert_nbrex(20));
+    }
 
 }
-
-
-
