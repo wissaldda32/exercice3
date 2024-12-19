@@ -17,7 +17,9 @@ public class Romain {
             return "X";
         }
 
-
+        else if (n == 11) {
+            return "XI";
+        }
         return null;
     }
 }
